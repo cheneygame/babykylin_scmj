@@ -1,0 +1,851 @@
+account server is listening on 9000
+dealer api is listening on localhost:12581
+client service is listening on port 9001
+room service is listening on localhost:9002
+game server is listening on localhost:9003
+game server is listening on 10000
+game server registered.
+	id:192.168.0.28:10000
+	addr:127.0.0.1
+	http port:9003
+	socket clientport:10000
+/get_server_info http:127.0.0.19003
+001
+1d94edad3ac1dbd0b710c96def5ab160
+game server is listening on localhost:9003
+account server is listening on 9000
+client service is listening on port 9001
+room service is listening on localhost:9002
+dealer api is listening on localhost:12581
+game server is listening on 10000
+game server registered.
+	id:192.168.0.28:10000
+	addr:127.0.0.1
+	http port:9003
+	socket clientport:10000
+001
+1d94edad3ac1dbd0b710c96def5ab160
+account server is listening on 9000
+dealer api is listening on localhost:12581
+game server is listening on localhost:9003
+client service is listening on port 9001
+room service is listening on localhost:9002
+game server is listening on 10000
+game server registered.
+	id:192.168.0.28:10000
+	addr:127.0.0.1
+	http port:9003
+	socket clientport:10000
+001
+1d94edad3ac1dbd0b710c96def5ab160
+md5:1d94edad3ac1dbd0b710c96def5ab160
+account server is listening on 9000
+dealer api is listening on 192.168.0.28:12581
+game server is listening on 192.168.0.28:9003
+client service is listening on port 9001
+room service is listening on 192.168.0.28:9002
+game server is listening on 10000
+game server registered.
+	id:192.168.0.28:10000
+	addr:192.168.0.28
+	http port:9003
+	socket clientport:10000
+001
+1d94edad3ac1dbd0b710c96def5ab160
+game server is listening on 192.168.0.28:9003
+account server is listening on 9000
+dealer api is listening on 192.168.0.28:12581
+client service is listening on port 9001
+room service is listening on 192.168.0.28:9002
+game server is listening on 10000
+game server registered.
+	id:192.168.0.28:10000
+	addr:192.168.0.28
+	http port:9003
+	socket clientport:10000
+001
+1d94edad3ac1dbd0b710c96def5ab160
+/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/protocol/Parser.js:78
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:51:14)
+    at Handshake.ErrorPacket (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/protocol/Parser.js:74:12)
+    at Protocol.write (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/Connection.js:109:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Protocol._enqueue (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/Connection.js:136:18)
+    at Pool.getConnection (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/utils/db.js:11:10)
+    at Object.exports.get_user_data (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/utils/db.js:145:5)
+    at /home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/hall_server/client_service.js:48:5
+    at Layer.handle [as handle_request] (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ccg/nodejs/git_babykylin_scmj_server_client/babykylin_scmj/server/node_modules/express/lib/router/route.js:112:3)
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+problem with request: connect ECONNREFUSED 192.168.0.28:9002
+game server is listening on 192.168.0.28:9003
+account server is listening on 9000
+dealer api is listening on 192.168.0.28:12581
+client service is listening on port 9001
+room service is listening on 192.168.0.28:9002
+game server is listening on 10000
+game server registered.
+	id:192.168.0.28:10000
+	addr:192.168.0.28
+	http port:9003
+	socket clientport:10000
+001
+1d94edad3ac1dbd0b710c96def5ab160
+长孙稳赢
+INSERT INTO t_users(account,name,coins,gems,sex,headimg) VALUES("guest_1517814629202","6ZW/5a2Z56iz6LWi",1000,21,0,null)
+{ type: 'xzdd',
+  baseScore: 1,
+  zimo: 0,
+  jiangdui: false,
+  hsz: false,
+  dianganghua: 0,
+  menqing: false,
+  tiandihu: false,
+  maxFan: 4,
+  maxGames: 4,
+  creator: 13 }
+INSERT INTO t_rooms(uuid,id,base_info,ip,port,create_time)                 VALUES('1517815208382133272','133272','{"type":"xzdd","baseScore":1,"zimo":0,"jiangdui":false,"hsz":false,"dianganghua":0,"menqing":false,"tiandihu":false,"maxFan":4,"maxGames":4,"creator":13}','192.168.0.28',10000,1517815209)
+1517815208382133272
+{ userid: '13',
+  name: '长孙稳赢',
+  roomid: '133272',
+  sign: '04e2698cdb7915ef61a795da3da0e4be' }
+04e2698cdb7915ef61a795da3da0e4be
+{ token: '34bf12fbccb515e8d177c631d273493d',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "133272" WHERE userid = "13"
+133272
+34bf12fbccb515e8d177c631d273493d
+1517815208465
+ec058837e68b1d72338eedc640d84b64
+UPDATE t_users SET roomid = null WHERE userid = "13"
+DELETE FROM t_rooms WHERE id = '133272'
+{ type: 'xzdd',
+  baseScore: 1,
+  zimo: 0,
+  jiangdui: false,
+  hsz: false,
+  dianganghua: 0,
+  menqing: false,
+  tiandihu: false,
+  maxFan: 4,
+  maxGames: 4,
+  creator: 13 }
+INSERT INTO t_rooms(uuid,id,base_info,ip,port,create_time)                 VALUES('1517815525744214689','214689','{"type":"xzdd","baseScore":1,"zimo":0,"jiangdui":false,"hsz":false,"dianganghua":0,"menqing":false,"tiandihu":false,"maxFan":4,"maxGames":4,"creator":13}','192.168.0.28',10000,1517815526)
+1517815525744214689
+{ userid: '13',
+  name: '长孙稳赢',
+  roomid: '214689',
+  sign: 'e298eaf8377caba8012b90c94a9df4f9' }
+e298eaf8377caba8012b90c94a9df4f9
+{ token: '0e0461e0c965ebfef6b186695232380f',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "13"
+214689
+0e0461e0c965ebfef6b186695232380f
+1517815525797
+1c7bde504a80421eea4a2c991980cdb5
+{ userid: '13',
+  name: '长孙稳赢',
+  roomid: '214689',
+  sign: 'e298eaf8377caba8012b90c94a9df4f9' }
+e298eaf8377caba8012b90c94a9df4f9
+{ token: '5275cc93668e0ac2370ee3f48f7127ac',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "13"
+214689
+5275cc93668e0ac2370ee3f48f7127ac
+1517815541547
+3a1927a5c6b98226d7fa7675f4a47c5c
+东阳赌侠
+INSERT INTO t_users(account,name,coins,gems,sex,headimg) VALUES("guest_1517815614380","5Lic6Ziz6LWM5L6g",1000,21,0,null)
+SELECT name,sex,headimg FROM t_users WHERE userid=14
+{ userid: '14',
+  name: '东阳赌侠',
+  roomid: '214689',
+  sign: '636de276450353fc8469adc98b73444b' }
+636de276450353fc8469adc98b73444b
+{ token: '836e36a208d85c0d4034e8ed4900dde6',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "14"
+214689
+836e36a208d85c0d4034e8ed4900dde6
+1517815625564
+2098c6a04ff57120b8eea725d856a748
+SELECT name,sex,headimg FROM t_users WHERE userid=13
+{ userid: '14',
+  name: '东阳赌侠',
+  roomid: '214689',
+  sign: '636de276450353fc8469adc98b73444b' }
+636de276450353fc8469adc98b73444b
+{ token: 'a8c5a05f00abf8f3b8adb0003efe0a8c',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "14"
+214689
+a8c5a05f00abf8f3b8adb0003efe0a8c
+1517815636366
+008201893cc3d7575724b1e4f153aedc
+{ userid: '14',
+  name: '东阳赌侠',
+  roomid: '214689',
+  sign: '636de276450353fc8469adc98b73444b' }
+636de276450353fc8469adc98b73444b
+{ token: '5ce1e0b268ea4145aae62828a092f19d',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "14"
+214689
+5ce1e0b268ea4145aae62828a092f19d
+1517815646780
+c002595173e35494a0ee17637505d4b7
+{ userid: '14',
+  name: '东阳赌侠',
+  roomid: '214689',
+  sign: '636de276450353fc8469adc98b73444b' }
+636de276450353fc8469adc98b73444b
+{ token: '961618a53551dc0dc603e3e5b1975c0c',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "14"
+214689
+961618a53551dc0dc603e3e5b1975c0c
+1517815657062
+14f3d3ecc5b6832e1c830fe82770dd8c
+SELECT name,sex,headimg FROM t_users WHERE userid=14
+{ userid: '14',
+  name: '东阳赌侠',
+  roomid: '214689',
+  sign: '636de276450353fc8469adc98b73444b' }
+636de276450353fc8469adc98b73444b
+{ token: 'baff5fc67fdbeb061d0e0fc5b839ef60',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "14"
+214689
+baff5fc67fdbeb061d0e0fc5b839ef60
+1517815664009
+dd4189d5841ae228ba687fd48735d317
+SELECT name,sex,headimg FROM t_users WHERE userid=13
+{ userid: '14',
+  name: '东阳赌侠',
+  roomid: '214689',
+  sign: '636de276450353fc8469adc98b73444b' }
+636de276450353fc8469adc98b73444b
+{ token: '9255496b6c16c6c0c1f543e30b3e16a9',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "14"
+214689
+9255496b6c16c6c0c1f543e30b3e16a9
+1517815674547
+18049a6c54bbb3dc2abd88b8287951fe
+{ userid: '14',
+  name: '东阳赌侠',
+  roomid: '214689',
+  sign: '636de276450353fc8469adc98b73444b' }
+636de276450353fc8469adc98b73444b
+{ token: '65f90f802c3acb520b34bdd97b9eeb70',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "14"
+214689
+65f90f802c3acb520b34bdd97b9eeb70
+1517815684661
+c13baf55dad8a45117cb889e28b7b226
+{ userid: '13',
+  name: '长孙稳赢',
+  roomid: '214689',
+  sign: 'e298eaf8377caba8012b90c94a9df4f9' }
+e298eaf8377caba8012b90c94a9df4f9
+{ token: 'bcf2176ac267fab6474a65546f3f90b0',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "13"
+214689
+bcf2176ac267fab6474a65546f3f90b0
+1517815691012
+067f0b355c2105ec40c94f403f6d77ef
+{ userid: '14',
+  name: '东阳赌侠',
+  roomid: '214689',
+  sign: '636de276450353fc8469adc98b73444b' }
+636de276450353fc8469adc98b73444b
+{ token: '4bdae310a98575b3f06c2fb47589b8fc',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "14"
+214689
+4bdae310a98575b3f06c2fb47589b8fc
+1517815694770
+25fbd74f295e6fddd15c9b1b4e882df6
+{ userid: '14',
+  name: '东阳赌侠',
+  roomid: '214689',
+  sign: '636de276450353fc8469adc98b73444b' }
+636de276450353fc8469adc98b73444b
+{ token: '26d8d9cae4f234aeb477d1ba98dc6186',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "14"
+214689
+26d8d9cae4f234aeb477d1ba98dc6186
+1517815705167
+9d011b792dbece7035ce5201a11cab20
+{ userid: '14',
+  name: '东阳赌侠',
+  roomid: '214689',
+  sign: '636de276450353fc8469adc98b73444b' }
+636de276450353fc8469adc98b73444b
+{ token: '2b0c6ccb6100dc446f9b45da66d5943f',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "214689" WHERE userid = "14"
+214689
+2b0c6ccb6100dc446f9b45da66d5943f
+1517815715704
+465ac23c89dd2ca1ca2de53a5ac92230
+22
+problem with request: connect ENETUNREACH 192.168.0.28:9002 - Local (0.0.0.0:0)
+problem with request: connect ENETUNREACH 192.168.0.28:9002 - Local (0.0.0.0:0)
+problem with request: connect ENETUNREACH 192.168.0.28:9002 - Local (0.0.0.0:0)
+problem with request: connect ENETUNREACH 192.168.0.28:9002 - Local (0.0.0.0:0)
+problem with request: connect ENETUNREACH 192.168.0.28:9002 - Local (0.0.0.0:0)
+problem with request: connect ENETUNREACH 192.168.0.28:9002 - Local (0.0.0.0:0)
+problem with request: connect ENETUNREACH 192.168.0.28:9002 - Local (0.0.0.0:0)
+account server is listening on 9000
+dealer api is listening on 192.168.0.28:12581
+client service is listening on port 9001
+room service is listening on 192.168.0.28:9002
+game server is listening on 192.168.0.28:9003
+game server is listening on 10000
+game server registered.
+	id:192.168.0.28:10000
+	addr:192.168.0.28
+	http port:9003
+	socket clientport:10000
+001
+1d94edad3ac1dbd0b710c96def5ab160

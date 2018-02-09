@@ -53,13 +53,17 @@ app.get('/register_gs',function(req,res){
 	};
 	http.send(res,0,"ok",{ip:ip});
 	console.log("game server registered.\n\tid:" + id + "\n\taddr:" + ip + "\n\thttp port:" + httpPort + "\n\tsocket clientport:" + clientport);
-
+	var serverID = "001"
 	var reqdata = {
-		serverid:id,
-		sign:crypto.md5(id+config.ROOM_PRI_KEY)
+		//serverid:id,
+		//sign:crypto.md5(id+config.ROOM_PRI_KEY)
+		serverid:serverID,
+		sign:crypto.md5(serverID +config.ROOM_PRI_KEY)
 	};
 	//获取服务器信息
+	//console.log("/get_server_info http:" + ip +  httpPort);
 	http.get(ip,httpPort,"/get_server_info",reqdata,function(ret,data){
+		//console.log("/get_server_info ret:" + ret +  data.errcode);
 		if(ret && data.errcode == 0){
 			for(var i = 0; i < data.userroominfo.length; i += 2){
 				var userId = data.userroominfo[i];
@@ -67,7 +71,7 @@ app.get('/register_gs',function(req,res){
 			}
 		}
 		else{
-			console.log(data.errmsg);
+			console.log( "errormsg:" + data.errmsg);
 		}
 	});
 });

@@ -27,11 +27,12 @@ app.get('/get_server_info',function(req,res){
 	console.log(serverId);
 	console.log(sign);
 	if(serverId  != config.SERVER_ID || sign == null){
-		http.send(res,1,"invalid parameters");
+		http.send(res,1,"invalid parameters:" + serverId   + ",config.SERVER_ID:" +  config.SERVER_ID);
 		return;
 	}
 
 	var md5 = crypto.md5(serverId + config.ROOM_PRI_KEY);
+	//console.log("md5:" + md5);
 	if(md5 != sign){
 		http.send(res,1,"sign check failed.");
 		return;
