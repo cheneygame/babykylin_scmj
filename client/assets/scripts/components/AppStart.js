@@ -53,7 +53,8 @@ function initMgr(){
     
     //var MJUtil = require("MJUtil");
     //cc.vv.mjutil = new MJUtil();
-    
+    cc._initDebugSetting(cc.DebugMode.INFO);
+    cc.log('print log info ...');
     cc.args = urlParse();
 }
     
@@ -107,8 +108,8 @@ cc.Class({
     
     showSplash:function(callback){
         var self = this;
-        var SHOW_TIME = 3000;
-        var FADE_TIME = 500;
+        var SHOW_TIME = 1000;
+        var FADE_TIME = 50;
         this._splash = cc.find("Canvas/splash");
         if(true || cc.sys.os != cc.sys.OS_IOS || !cc.sys.isNative){
             this._splash.active = true;
@@ -145,6 +146,7 @@ cc.Class({
     getServerInfo:function(){
         var self = this;
         var onGetVersion = function(ret){
+            //self.loadingProgess.string = ret.version;
             if(ret.version == null){
                 console.log("error.");
             }
@@ -154,6 +156,8 @@ cc.Class({
                     cc.find("Canvas/alert").active = true;
                 }
                 else{
+                    cc.log("into self._mainScene.");
+                    self.loadingProgess.string = "self._mainScene";
                     cc.director.loadScene(self._mainScene);
                 }
             }
@@ -187,7 +191,8 @@ cc.Class({
         };
         fn();
     },
-    log:function(content){
-        this.label.string += content + '\n';
-    },
+    // log:function(content){
+    //     this.label.string += content + '\n';
+    //     cc.log(content)
+    // },
 });

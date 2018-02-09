@@ -32,9 +32,14 @@ cc.Class({
             }
         };
         
-        cc.loader.loadResAll("textures", function (err, assets) {
+        // cc.loader.loadResAll("textures", function (err, assets) {
+        //     self.onLoadComplete();
+        // }
+        cc.loader.loadRes("textures", function (err, assets) {
             self.onLoadComplete();
-        });      
+        }
+
+        );      
     },
     
     onLoadComplete:function(){
