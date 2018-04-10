@@ -1,17 +1,18 @@
-﻿var HALL_IP =  "192.168.0.28" //"127.0.0.1";//如果非本机访问，这里要变
+﻿//var HALL_IP =  "0.0.0.0";//如果非本机访问，这里要变
+var HALL_IP =  "47.98.200.25";//如果非本机访问，这里要变
 var HALL_CLIENT_PORT = 9001;
 var HALL_ROOM_PORT = 9002;
 
 var ACCOUNT_PRI_KEY = "^&*#$%()@";
 var ROOM_PRI_KEY = "~!@#$(*&^%$&";
 
-var LOCAL_IP =  "192.168.0.28"  //'localhost';
-
+//var LOCAL_IP =  "47.98.200.25"  //'localhost';
+var LOCAL_IP =  "0.0.0.0"  //'localhost';
 exports.mysql = function(){
 	return {
 		HOST:'127.0.0.1',
 		USER:'root',
-		PSWD:'',//如果连接失败，请检查这里
+		PSWD:'555999',//如果连接失败，请检查这里
 		DB:'db_babykylin',//如果连接失败，请检查这里
 		PORT:3306,
 	}
