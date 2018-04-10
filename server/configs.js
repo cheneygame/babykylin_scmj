@@ -12,7 +12,7 @@ exports.mysql = function(){
 	return {
 		HOST:'127.0.0.1',
 		USER:'root',
-		PSWD:'555999',//如果连接失败，请检查这里
+		PSWD:'',//如果连接失败，请检查这里
 		DB:'db_babykylin',//如果连接失败，请检查这里
 		PORT:3306,
 	}
